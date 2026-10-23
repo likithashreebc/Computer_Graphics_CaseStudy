@@ -1,0 +1,279 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.10f1 (3bd4f66ad299) revision 3921142'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LIKITHASHREE B C" at "2026-10-23T04:40:05.2038645Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-23T04:40:05Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27232, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              958e39f1d59c48bf9b5de440487d7f13
+  Correlation Id:          b3762bff7ec4f0ee03503a7efff08def
+  External correlation Id: 1135695612785394101
+  Machine Id:              4b+yvAx27gKDuA7Bj+T2R2u7m3k=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-LIKITHASHREE B C" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-LIKITHASHREE B C-notifications" at "2026-10-23T04:40:05.3261735Z"
+[Licensing::Module] Licensing Background thread has ended after 0.12s
+
+COMMAND LINE ARGUMENTS:
+D:\All_files\6000.5.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW1
+-projectPath
+D:/Computer Graphics/MetroSafeVR_Professional
+-logFile
+Logs/AssetImportWorkerHW1.log
+-srvPort
+60022
+-parentPid
+22088
+-analyticsCloudUserId
+13469960153213
+-analyticsLocalProjectId
+ced347c208d94ad4d8263dfefc5e8fef
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+8426bacd372f4e4570ef5266aa960bc5c1077853
+-cbmMachineId
+4b+yvAx27gKDuA7Bj+T2R2u7m3k=
+-licensingIpc
+LicenseClient-LIKITHASHREE B C
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/Computer Graphics/MetroSafeVR_Professional
+D:/Computer Graphics/MetroSafeVR_Professional
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [12736]  Target information:
+
+Player connection [12736]  * "[IP] 10.17.18.198 [Port] 0 [Flags] 2 [Guid] 1876157289 [EditorId] 1876157289 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-G4GEQUNT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.10f1 (3bd4f66ad299)
+[Subsystems] Discovering subsystems at path D:/All_files/6000.5.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Computer Graphics/MetroSafeVR_Professional/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:          ATI
+    VRAM:            7846 MB
+    App VRAM Budget: 7669 MB
+    Driver:          31.0.21914.8004
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'D:/All_files/6000.5.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/All_files/6000.5.10f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/All_files/6000.5.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/All_files/6000.5.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/All_files/6000.5.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003686 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.973 seconds
+Domain Reload Profiling: 2391ms
+	BeginReloadAssembly (632ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (198ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (630ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (397ms)
+				TypeCache.ScanAssembly (376ms)
+	FinalizeReload (975ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (497ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469960153213-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.752 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (401ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (253ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (6ms)
+	FinalizeReload (756ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (30.4 KB). Loaded Objects now: 815.
+Memory consumption went from 163.0 MB to 163.0 MB.
+Total: 7.474000 ms (FindLiveObjects: 0.134300 ms CreateObjectMapping: 0.026600 ms MarkObjects: 7.147400 ms  DeleteObjects: 0.161700 ms)
+
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 815.
+Memory consumption went from 162.9 MB to 162.9 MB.
+Total: 8.916100 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.020900 ms MarkObjects: 8.558900 ms  DeleteObjects: 0.006400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Error loading the file 'ProjectSettings/ProjectAuditorSettings.asset'. File is either empty or corrupted, please verify the file contents.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool)
+UnityEditor.ScriptableSingleton`1<Unity.ProjectAuditor.Editor.ProjectAuditorSettings>:Save (bool)
+Unity.ProjectAuditor.Editor.ProjectAuditorSettings:Save ()
+Unity.ProjectAuditor.Editor.ProjectAuditorSettings:OnDisable ()
+
+[ line 0]
+
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling: 2077ms
+	BeginReloadAssembly (590ms)
+		DisableScriptedObjects (43ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (364ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (8ms)
+	FinalizeReload (1088ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (225ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.0 KB). Loaded Objects now: 815.
+Memory consumption went from 162.5 MB to 162.5 MB.
+Total: 9.774900 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.024500 ms MarkObjects: 9.499500 ms  DeleteObjects: 0.088300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 815.
+Memory consumption went from 162.9 MB to 162.9 MB.
+Total: 10.960900 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.028300 ms MarkObjects: 10.745400 ms  DeleteObjects: 0.014600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,7 @@
+Test ID,Scenario,Procedure,Expected observation,Measured result
+T01,Baseline all exits open,Press R then Play and allow agents to move,Agents should route toward available exits,Fill after testing
+T02,Blocked exit,Press B during simulation,North exit changes state and agents reroute,Fill after testing
+T03,Pause and resume,Press Space twice,Agents stop and resume,Fill after testing
+T04,Reset,Press R after movement,Agents return to initial positions and timer resets,Fill after testing
+T05,CSV export,Click EXPORT CSV RESULTS,CSV appears in persistent data path,Fill after testing
+T06,Performance,Use Unity Profiler at baseline crowd size,Record CPU/GPU frame time and FPS,Fill after testing
